@@ -16,7 +16,7 @@ function importFooter() {
     console.log("loaded footer");
 }
 function importNavbar() {
-    $("#nav").load("../rhywaelle/structure/navbar.html");
+    $("nav").load("../rhywaelle/structure/navbar.html");
     console.log("loaded nav");
 }
 function sideNavCollapse() {
