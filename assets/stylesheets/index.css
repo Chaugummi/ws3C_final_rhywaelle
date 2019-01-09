@@ -7,6 +7,16 @@
 
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 /* === NAVBAR === */
 
 #navbar__ul {
@@ -41,6 +51,8 @@
 #navbar__ul li a.active {
     background-color: #4CAF50;
 }
+
+
 
 @media all and (max-width: 600px){
     #navbar__ul {
