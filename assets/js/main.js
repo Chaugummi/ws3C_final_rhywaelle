@@ -3,6 +3,7 @@ function main() {
     importNavbar();
     importFooter();
     sideNavCollapse();
+    M.AutoInit();
 
 }
 
