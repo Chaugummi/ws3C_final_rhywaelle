@@ -6,3 +6,65 @@
 .content__container{
 
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* === NAVBAR === */
+
+#navbar__ul {
+    list-style-type: none;
+    margin:         0;
+    padding:        0;
+    overflow:       hidden;
+    background-color: #333;
+    color:          white;
+    display:        flex;
+    text-align:     left;
+}
+.navbar__element_last{
+    flex:           1;
+}
+#navbar__ul li.nabar__elements-right{
+    float:          right;
+    top:            0;
+}
+
+#navbar__ul li a {
+    display:        block;
+    color:          white;
+    text-decoration: none;
+    padding:        1rem;
+}
+
+#navbar__ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#navbar__ul li a.active {
+    background-color: #4CAF50;
+}
+
+/* === BANNER === */
+.jumbotron {
+    background:url("../img/banner.png") top center no-repeat;
+    background-size:cover;
+    height:300px;
+}
+
+
+@media all and (max-width: 600px){
+    #navbar__ul {
+        flex-wrap:  wrap;
+    }
+    #navbar__ul > li{
+        flex-basis: 50%;
+    }
+}
