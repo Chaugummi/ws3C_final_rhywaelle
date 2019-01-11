@@ -53,6 +53,8 @@ body {
 .jumbotron {
    /* background:url("../img/banner.png") top center no-repeat; */
     background-size:cover;
+    height: 16rem;
+    overflow: hidden;
 }
 .jumbotron img {
     min-width:100%;
