@@ -1,42 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../assets/js/frameworks/materialize.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/vorstand.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/index.css">
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/vorstand.css">
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/frameworks/materialize.css">
 
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/footer.css">
+
     <script src="../assets/js/frameworks/materialize.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Rhywälle | Vorstand</title>
 </head>
+
 <body>
     <header>
         <!-- NAVBAR -->
-        <ul id="navbar__ul">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="angebote.html">Angebote</a>
-            </li>
-            <li class="navbar__element_active">
-                <a href="vorstand.html">Kontakt</a>
-            </li>
-            <li class="navbar__element_last">
-            </li>
-            <li>
-                <a href="https://app.clubdesk.com/clubdesk/start?action=login">Mitglieder</a>
-            </li>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">WFV Rhywälle</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="angebote.html">ANGEBOTE</a></li>
+                    <li><a href="vorstand.html">KONTAKT</a></li>
+                    <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="angebote.html">ANGEBOTE</a></li>
+                <li><a href="vorstand.html">KONTAKT</a></li>
+                <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
         </ul>
+
     </header>
-    <div class="content__container">
+    <main>
         <h1>Vorstand</h1>
-    </div>
-    <footer>
-        <p>Im a footer</p>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">WFV Rhywälle</h5>
+                    <p class="grey-text text-lighten-4">info@rhywälle.ch</p>
+                    <p class="grey-text text-lighten-4">Tel.: 076 681 62 45</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 WFV Rhywälle
+                <a class="grey-text text-lighten-4 right" href="#!">AGB</a>
+            </div>
+        </div>
+
     </footer>
 </body>
+
 </html>
