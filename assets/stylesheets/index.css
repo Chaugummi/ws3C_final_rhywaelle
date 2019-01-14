@@ -113,6 +113,10 @@ nav .brand-logo{
     font-weight:bold;
     padding:1rem 0;
 }
+#train-lower .info-para-block p:last-child {
+    margin-left:2rem;
+    margin-top:0.5rem;
+}
 
 /* === IMPRESSIONEN === */
 #impressionen {
@@ -135,5 +139,41 @@ nav .brand-logo{
     }
     #navbar__ul > li{
         flex-basis: 50%;
+    }
+
+
+}
+
+@media all and (max-width:720px) {
+    #about {
+        padding-top:1rem;
+    }
+    #about h2 {
+        font-size:3rem;
+        text-align:center;
+        font-weight:bold;
+    }
+    #about p {
+        font-size:1.5rem;
+        padding:0.7rem 0;
+    }
+
+    #angebote h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    #training h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    #impressionen h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    .jumbotron {
+        height:100px;
     }
 }
