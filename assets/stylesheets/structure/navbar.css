@@ -1,3 +1,46 @@
 .brand-logo img {
     height:60px;
 }
+
+.brand-logo img {
+    height:60px;
+}
+
+/* === NAVBAR === */
+.sidenav-trigger i {
+    font-size:60px!important;
+    padding:10px 5px 5px 10px;
+    color:black;
+}
+
+nav {
+    color: #fff;
+    background-color: #ffffff;
+    border-bottom:none;
+    height:80px;
+    line-height:80px;
+}
+nav ul li a{
+    color:black;
+}
+nav ul li a {
+    padding-top:40px;
+    line-height:40px;
+}
+nav .selected {
+    font-weight:bold;
+    background-color:#E8E8E8;
+}
+
+.brand-logo img {
+    padding:0.1rem;
+    margin-top:10px;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 48%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}

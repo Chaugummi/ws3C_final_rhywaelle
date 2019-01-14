@@ -9,9 +9,11 @@
     <script src="../assets/js/main.js"></script>
 
 
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/navbar.css">
+
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/index.css">
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/frameworks/materialize.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
@@ -22,12 +24,27 @@
 
     <header>
         <nav>
+            <div class="container">
+
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"><img src="../assets//img/rhw-logo.svg" /></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html" class="selected">HOME</a></li>
+                        <li><a href="angebote.html">ANGEBOTE</a></li>
+                        <li><a href="vorstand.html">KONTAKT</a></li>
+                        <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
         </nav>
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="angebote.html">ANGEBOTE</a></li>
+            <li><a href="vorstand.html">KONTAKT</a></li>
+            <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
         </ul>
     </header>
     <main>
@@ -39,111 +56,194 @@
         <div class="container">
             <div id="about" class="section">
                 <h2>Was ist Wasserfahren?</h2>
+
+                <img src="../assets/img/icon_wasserfahren_lg.png" class="responsive-img" alt="Icon_Wasserfahren"/>
                 <p>
-                    Wasserfahren ist ein Sport, bei dem Kraft, Geschicklichkeit,
-                    Geschwindigkeit und Technik gefordert sind. Es geht darum
+                    Wasserfahren ist ein <b>Sport</b>, bei dem <b>Kraft</b>, <b>Geschicklichkeit</b>,
+                    <b>Geschwindigkeit</b> und <b>Technik</b> gefordert sind.
+
+                    </p>
+                <br>
+                <p>Es geht darum
                     einen Parcour möglichst schnell zu fahren. Wichtig ist dabei,
                     dass man die Bojen, welche die Fahrstrecke bilden, ohne zu
-                    berühren um fährt. Flussaufwärts wird mit dem Stachel das
+                    berühren um fährt.
+                    </p>
+                <br>
+                <p>Flussaufwärts wird mit dem Stachel das
                     Boot vorwärts gestossen. Fluss abwärts bedient man sich am Ruder.
                 </p>
             </div>
-
+        </div>
             <!--using materialize 'section' class for easy bottom and top padding-->
             <div id="angebote" class="section">
-                <h4>Angebote</h4>
-                <div class="row">
-                    <div class="col s6">
-                        <img alt="angebot_schifffahrten" class="responsive-img" src="../assets/img/angebot_schifffahrten.png" />
-                    </div>
-                    <div class="col s6">
-                        <img alt="angebot_klause" class="responsive-img" src="../assets/img/angebot_klause.png" />
+                <div class="container">
+                    <h4>Angebote</h4>
+                    <div class="row">
+                        <div class="col s6">
+                            <img alt="angebot_schifffahrten" class="responsive-img" src="../assets/img/angebot_schifffahrten.png" />
+                        </div>
+                        <div class="col s6">
+                            <img alt="angebot_klause" class="responsive-img" src="../assets/img/angebot_klause.png" />
+                        </div>
                     </div>
                 </div>
             </div>
 
+        <div class="container">
             <div id="training" class="section">
                 <h4>Training</h4>
                 <div class="row">
                     <div class="col m12">
                         <img alt="training_banner" class="responsive-img" src="../assets/img/training.png" />
                     </div>
-                    <div class="col m12">
-                        <p>Unsere Trainings finden jeden Dienstag und Donnerstag, 1800 - 2000 statt
-                            Das Training findet auch diese Woche unter der Schwarzwaldbücke im Kleinbasel statt</p>
+                    <div class="col m6">
+                        <div class="training-info">
+                            <img src="../assets/img/icon_map.png" class="responsive-img" alt="icon_map"/>
+                            <div class="info-para-block">
+                                <p>18.00 Uhr - 20.00 Uhr</p>
+                                <p>Jeden Dienstag und Donnerstag</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m6">
+                        <div class="training-info">
+                            <img src="../assets/img/icon_time.png" class="responsive-img" alt="icon_time"/>
+                            <div class="info-para-block">
+                                <p>Unter der Schwarzwaldbrücke</p>
+                                <p>Im Kleinbasel</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col m12">
+                    <div id="training-trainingsarten" class="col s12 m12">
                         <h5>Trainingsarten</h5>
                     </div>
                     <div class="col m6">
-
-                        <p>Sommertraining</p>
-                        <p>> Auf dem Wasser im Weidling</p>
-                        <p>> Schwimmen im Rhein</p>
+                        <div class="training-info">
+                            <img src="../assets/img/icon_sun.png" class="responsive-img" alt="icon_summer"/>
+                            <div class="info-para-block">
+                                <p>Sommertraining</p>
+                                <p>Auf dem Wasser im Weidling</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col m6">
-                        <p>Wintertraining</p>
-                        <p>> Konditions- und Krafttraining</p>
-                    </div>
-                </div>
-            </div>
-
-            <div id="impressionen" class="section">
-                <h4>IMPRESSIONEN</h4>
-                <div class="row">
-                    <div class="col m4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img alt="impressionen_bild1" class="materialbox responsive-img" src="../assets/img/training.png" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col m4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img alt="impressionen_bild2" class="responsive-img" src="../assets/img/training.png" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col m4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img alt="impressionen_bild3" class="responsive-img" src="../assets/img/training.png" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <div class="training-info">
+                            <img src="../assets/img/icon_snow.png" class="responsive-img" alt="icon_winter"/>
+                            <div class="info-para-block">
+                                <p>Wintertraining</p>
+                                <p>Konditions- und Krafttraining</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
+
+            <div id="impressionen" class="section">
+                <div class="container">
+                    <h4>IMPRESSIONEN</h4>
+                    <div class="row">
+                        <div class="col l6">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img alt="impressionen_bild1" class="materialbox responsive-img" src="../assets/img/impress_1.png" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col m6 l6">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img alt="impressionen_bild2" class="responsive-img" src="../assets/img/impress_2.png" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m6 l6">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img alt="impressionen_bild3" class="responsive-img" src="../assets/img/impress_3.png" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l6">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img alt="impressionen_bild4" class="responsive-img" src="../assets/img/impress_4.jpg" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
     </main>
-    <footer class="page-footer">
+    <footer id="page-footer">
+
+            <div class="container">
+
+                    <div id="footer-top">
+
+                        <div class="row">
+                            <div id="footer-left" class="col s6">
+                                <h5><span id="footer-wfv-label">WFV</span> RHYWÄLLE &copy; 2019</h5>
+                                <p class="text-lighten-4">info@rhywälle.ch</p>
+                                <p class="text-lighten-4">Tel.: <span id="footer-tel">076 681 62 45</span></p>
+                            </div>
+
+                            <div id="footer-right" class="col s6">
+                                <div id="footer-icons-holder">
+                                    <a href="#"><img src="../assets/img/icon_phone.png" alt="icon_phone" class="responsive-img" /></a>
+                                    <a href="#"><img src="../assets/img/icon_fb.png" alt="icon_facebook" class="responsive-img" /></a>
+                                    <a href="#"><img src="../assets/img/icon_insta.png" alt="icon_instagram" class="responsive-img" /></a>
+                                    <a href="#"><img src="../assets/img/icon_skype.png" alt="icon_skype" class="responsive-img" /></a>
+                                    <a href="#"><img src="../assets/img/icon_mail.png" alt="icon_email" class="responsive-img" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="footer-bottom">
+                        <p><a href="#">AGB</a></p>
+                    </div>
+
+
+            </div>
+
+
 
     </footer>
 

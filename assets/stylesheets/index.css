@@ -56,9 +56,76 @@ main {
 .jumbotron {
    /* background:url("../img/banner.png") top center no-repeat; */
     background-size:cover;
+    height: 16rem;
+    overflow: hidden;
 }
 .jumbotron img {
     min-width:100%;
+}
+
+nav .brand-logo{
+    font-size: 2rem;
+}
+
+/* === ABOUT === */
+#about img {
+    display:block;
+    margin:0 auto;
+    padding:5rem;
+    height:300px;
+    width:auto;
+}
+
+/* === ANGEBOTE === */
+#angebote {
+    margin-top:2rem;
+    background-color: #F6F6F6;
+    padding-bottom:2rem;
+}
+#angebote h4 {
+    padding-bottom:1rem;
+}
+
+/* === TRAINING === */
+#training {
+    margin-top:2rem;
+    padding-bottom:2rem;
+}
+#training h4 {
+    padding-bottom:1rem;
+}
+
+#training .training-info {
+
+}
+#training .training-info img {
+    height:1.6rem;
+}
+#training .training-info .info-para-block {
+    display:inline-block;
+    margin-top:2.5rem;
+    margin-left:2rem;
+}
+#training #training-trainingsarten {
+
+}
+#training #training-trainingsarten h5{
+    font-weight:bold;
+    padding:1rem 0;
+}
+
+/* === IMPRESSIONEN === */
+#impressionen {
+    margin-top: 2rem;
+    background-color: #F6F6F6;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    nav .brand-logo{
+        padding: 0 0 0 1rem;
+        font-size: 2rem;
+    }
 }
 
 

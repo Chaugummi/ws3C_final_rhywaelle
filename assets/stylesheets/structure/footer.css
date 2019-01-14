@@ -1,0 +1,40 @@
+#page-footer {
+    border-top:1px solid black;
+    color: black;
+    background-color: #E6EDF3;
+
+}
+#footer-wfv-label {
+    color:#F98700;
+}
+#footer-top {
+    margin-top:20px;
+}
+
+#footer-left p {
+    font-style:italic;
+}
+#footer-left #footer-tel {
+    color:#034B88;
+}
+#footer-right {
+    background:url("../../img/rhywaelle_logo_footer_md.png") no-repeat right;
+    height:175px;
+}
+#footer-right #footer-icons-holder {
+    margin-left:8rem;
+    line-height:6rem;
+}
+#footer-right #footer-icons-holder a img {
+    height:40px;
+    display:inline-block;
+}
+
+#footer-bottom p {
+    text-align:center;
+    padding:0 0 1rem 0;
+    margin:0;
+}
+#footer-bottom p a {
+    color:black;
+}

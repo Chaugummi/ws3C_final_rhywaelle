@@ -1,7 +1,7 @@
 function main() {
     //importHeader();
-    importNavbar();
-    importFooter();
+    //importNavbar();
+    //importFooter();
     sideNavCollapse();
     M.AutoInit();
     initMaterialbox();
