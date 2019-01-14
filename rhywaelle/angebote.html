@@ -1,22 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../assets/js/frameworks/materialize.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/angebote.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/index.css">
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/angebote.css">
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/frameworks/materialize.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/structure/footer.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/angebote.css">
 
     <script src="../assets/js/frameworks/materialize.js"></script>
 
-    <title>Rhywälle | Angebote</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Rhywälle | Vorstand</title>
 </head>
+
 <body>
-    <div class="content__container">
-        <h1>Angebote</h1>
-    </div>
-    <footer>
-        <p>Im a footer</p>
+    <header>
+        <!-- NAVBAR -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">WFV Rhywälle</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="angebote.html">ANGEBOTE</a></li>
+                    <li><a href="vorstand.html">KONTAKT</a></li>
+                    <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="angebote.html">ANGEBOTE</a></li>
+            <li><a href="vorstand.html">KONTAKT</a></li>
+            <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
+        </ul>
+
+    </header>
+    <!-- CONTENT -->
+    <main>
+        <div class="jumbotron">
+            <img class="responsive-img" src="../assets/img/banner.PNG">
+        </div>
+        <div class="container">
+            <h4>Kommende Veranstaltungen</h4>
+            <h4>Klause</h4>
+            <p>Ob für Geburtstagsfeiern, Hochzeiten oder andere Feste unsere Klause kann für jedes Event genutzt
+                werden.
+                Unsere Klause umfasst 50 Plätze und kann an Ihr Event angepasst werden.
+                Einfach nur ungeniert anfragen. Gemeinsam werden wir eine Lösung für Ihr Event finden.
+                Wir freuen uns auf euch.
+            </p>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">
+                        <span>Anmeldeformular</span>
+                    </div>
+                    <div class="collapsible-body">
+
+                        <form class="col s12" id="klause__anmeldung">
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="klause__vorname" type="text" class="validate">
+                                    <label for="klause__vorname">Vorname</label>
+                                </div>
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="klause__nachname" type="text" class="validate">
+                                    <label for="klause__nachname">Nachname</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l9 m8 s8">
+                                    <input id="klause__strasse" type="text" class="validate">
+                                    <label for="klause__strasse">Strasse</label>
+                                </div>
+                                <div class="input-field col l3 m4 s4">
+                                    <input id="klause__strasse_nr" type="text" class="validate">
+                                    <label for="klause__strasse_nr">Hausnummer</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="klause__plz" type="text" class="validate">
+                                    <label for="klause__plz">PLZ</label>
+                                </div>
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="klause__ort" type="text" class="validate">
+                                    <label for="klause__ort">Ort</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="klause__email" type="text" class="validate">
+                                    <label for="klause__email">Email</label>
+                                </div>
+
+
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="klause__tel" type="text" class="validate">
+                                    <label for="klause__tel">Telefon</label>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                    <div class="input-field col l12 m12 s12">
+                                <input type="text" class="datepicker" placeholder="Reservations Datum">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l12 m12 s12">
+                                    <textarea id="klause__bemerkung" type="text" class="validate"></textarea>
+                                    <label for="klause__bemerkung" class="lbl_bemerkung">Bemerkungen</label>
+                                </div>
+
+                            </div>
+                            <input type="button" id="klause__btn" class="btn" value="Anmelden">
+                        </form>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <h4>Langschiff</h4>
+            <p>Unser Langschiff empfiehlt sich für diverse Anlässe
+                Z.B. Hochzeitsfahrten, Geschäftsausflüge,
+                Vereins- oder Cliquenausflüge, Familienfeste, usw. Bitte kontaktieren Sie uns, wir beraten Sie gerne.</p>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">
+                        <span>Anmeldeformular</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>Anmeldeformular enter here</p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">WFV Rhywälle</h5>
+                    <p class="grey-text text-lighten-4">info@rhywälle.ch</p>
+                    <p class="grey-text text-lighten-4">Tel.: 076 681 62 45</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 WFV Rhywälle
+                <a class="grey-text text-lighten-4 right" href="#!">AGB</a>
+            </div>
+        </div>
+
     </footer>
 </body>
+
 </html>

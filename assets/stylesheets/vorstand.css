@@ -52,3 +52,15 @@
     background: url('../img/icons/matverwalter.svg') no-repeat left top;
     background-size: contain;
 }
+
+nav .brand-logo{
+    font-size: 2rem;
+}
+
+
+@media only screen and (min-width: 600px) {
+    nav .brand-logo{
+        padding: 0 0 0 1rem;
+        font-size: 2rem;
+    }
+}
