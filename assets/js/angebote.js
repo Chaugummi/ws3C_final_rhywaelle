@@ -17,7 +17,10 @@ function initEmail() {
         $('#klause__anmeldung').submit();
 
         alert("Hello! I am an alert box!!");
+        
     });
+  
+   $('.slider').slider(); 
 }
 
 function initModal() {
@@ -52,4 +55,6 @@ function initFlipbook() {
     });
 }
 
-$(document).ready(main);
+$(document).ready(main);   
+            
+});

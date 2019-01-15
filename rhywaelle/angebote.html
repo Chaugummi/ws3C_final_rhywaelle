@@ -90,6 +90,31 @@
 
             <h4>Kommende Veranstaltungen</h4>
             <h4>Klause</h4>
+
+            <div class="slider">
+                    <ul id="klause__slider"class="slides">
+                      <li>
+                        <img src="../assets/img/klause-lokal.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                        </div>
+                      </li>
+                      <li>
+                        <img src="../assets/img/klause-drinks.jpg"> <!-- random image -->
+                        <div class="caption right-align">
+                          <h3>Getränke</h3>
+                          <h5 class="light grey-text text-lighten-3">Ob Alkohol oder doch lieber nicht, wir bieten alles was das Herz begehrt</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="../assets/img/kaluse-party.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                          <h3>Für jeden Anlass</h3>
+                          <h5 class="light grey-text text-lighten-3">Feste! Geschäftsessen! Geburtstagsfeiern!</h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
             <p>Ob für Geburtstagsfeiern, Hochzeiten oder andere Feste unsere Klause kann für jedes Event genutzt
                 werden.
                 Unsere Klause umfasst 50 Plätze und kann an Ihr Event angepasst werden.
@@ -147,30 +172,49 @@
                                     <input id="klause__tel" type="text" class="validate">
                                     <label for="klause__tel">Telefon</label>
                                 </div>
-
                             </div>
 
                             <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                <input type="text" class="datepicker" placeholder="Reservations Datum">
+                                <input id="klause__date" type="text" class="datepicker" placeholder="Reservations Datum">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input-field col l12 m12 s12">
-                                    <textarea id="klause__bemerkung" type="text" class="validate"></textarea>
+                                    <textarea id="klause__bemerkung" type="text" class="validate txtarea_bemerkung"></textarea>
                                     <label for="klause__bemerkung" class="lbl_bemerkung">Bemerkungen</label>
                                 </div>
 
                             </div>
                             <input type="button" id="klause__btn" class="btn" value="Anmelden">
                         </form>
-                        </a>
+                    
                     </div>
                 </li>
             </ul>
 
             <h4>Langschiff</h4>
+
+            <div class="slider">
+                    <ul id="langschiff__slider"class="slides">
+                      <li>
+                        <img src="../assets/img/langschiff-ausflüge.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                          <h3>Langschifffahrten den Rhein aus und ab!</h3>
+                          <h5 class="light grey-text text-lighten-3">Für klein und gross</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="../assets/img/langschiff-romantic.jpg"> <!-- random image -->
+                        <div class="caption left-align">
+                          <h3></h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
             <p>Unser Langschiff empfiehlt sich für diverse Anlässe
                 Z.B. Hochzeitsfahrten, Geschäftsausflüge,
                 Vereins- oder Cliquenausflüge, Familienfeste, usw. Bitte kontaktieren Sie uns, wir beraten Sie gerne.</p>
@@ -180,8 +224,70 @@
                         <span>Anmeldeformular</span>
                     </div>
                     <div class="collapsible-body">
-                        <p>Anmeldeformular enter here</p>
-                        </a>
+                        
+                        <form class="col s12" id="langschiff__anmeldung">
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__vorname" type="text" class="validate">
+                                    <label for="langschiff__vorname">Vorname</label>
+                                </div>
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__nachname" type="text" class="validate">
+                                    <label for="langschiff__nachname">Nachname</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l9 m8 s8">
+                                    <input id="langschiff__strasse" type="text" class="validate">
+                                    <label for="langschiff__strasse">Strasse</label>
+                                </div>
+                                <div class="input-field col l3 m4 s4">
+                                    <input id="langschiff__strasse_nr" type="text" class="validate">
+                                    <label for="langschiff__strasse_nr">Hausnummer</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="langschiff__plz" type="text" class="validate">
+                                    <label for="langschiff__plz">PLZ</label>
+                                </div>
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="langschiff__ort" type="text" class="validate">
+                                    <label for="langschiff__ort">Ort</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__email" type="text" class="validate">
+                                    <label for="langschiff__email">Email</label>
+                                </div>
+
+
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__tel" type="text" class="validate">
+                                    <label for="langschiff__tel">Telefon</label>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                    <div class="input-field col l12 m12 s12">
+                                <input id="langschiff__date" type="text" class="datepicker" placeholder="Reservations Datum">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l12 m12 s12">
+                                    <textarea id="langschiff__bemerkung" type="text" class="validate txtarea_bemerkung"></textarea>
+                                    <label for="langschiff__bemerkung" class="lbl_bemerkung">Bemerkungen</label>
+                                </div>
+
+                            </div>
+                            <input type="button" id="langschiff__btn" class="btn" value="Anmelden">
+                        </form>
+
                     </div>
                 </li>
             </ul>
