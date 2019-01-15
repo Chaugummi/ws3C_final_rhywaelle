@@ -81,6 +81,20 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .datepicker-table td.is-today {
     color: #F98700;
 }
+.cover {
+    background-color:#E8E8E8;
+}
+.flipbook {
+    margin:0 auto;
+    display:block;
+}
+.modal {
+    width: 75% !important;
+    height: 50rem !important;
+}
+#flyer-container {
+    padding:5rem;
+
 
 .slider{
     height:25rem !important;
