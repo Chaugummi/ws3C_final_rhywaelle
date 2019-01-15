@@ -60,6 +60,83 @@ body {
     min-width:100%;
 }
 
+nav .brand-logo{
+    font-size: 2rem;
+}
+/* === ABOUT === */
+#about img {
+    display:block;
+    margin:0 auto;
+    padding:5rem;
+    max-height:300px;
+    width:auto;
+}
+
+/* === ANGEBOTE === */
+#angebote {
+    margin-top:2rem;
+    background-color: #F6F6F6;
+    padding-bottom:2rem;
+}
+#angebote h4 {
+    padding-bottom:1rem;
+}
+
+/* === TRAINING === */
+#training {
+    margin-top:2rem;
+    padding-bottom:2rem;
+}
+#training h4 {
+    padding-bottom:1rem;
+}
+
+#training .training-info {
+
+}
+#training .training-info img {
+    height:1.6rem;
+}
+#training .training-info .info-para-block {
+    display:inline-block;
+    margin-top:2.5rem;
+    margin-left:2rem;
+}
+#training #training-trainingsarten {
+
+}
+#training #training-trainingsarten h5{
+    font-weight:bold;
+    padding:1rem 0;
+}
+#train-lower .info-para-block p:last-child {
+    margin-left:2rem;
+    margin-top:0.5rem;
+}
+.btn-block {
+    width:100%;
+    margin-top:4rem;
+    background-color:#034B88 !important;
+    border-radius:10px !important;
+    font-size:1.5rem !important;
+}
+.btn-block i {
+    font-size:3rem !important;
+}
+/* === IMPRESSIONEN === */
+#impressionen {
+    margin-top: 2rem;
+    background-color: #F6F6F6;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    nav .brand-logo{
+        padding: 0 0 0 1rem;
+        font-size: 2rem;
+    }
+}
+
 
 @media all and (max-width: 600px){
     #navbar__ul {
@@ -67,5 +144,52 @@ body {
     }
     #navbar__ul > li{
         flex-basis: 50%;
+    }
+
+
+}
+
+@media all and (max-width:720px) {
+    #about {
+        padding-top:1rem;
+    }
+    #about h2 {
+        font-size:3rem;
+        text-align:center;
+        font-weight:bold;
+    }
+    #about p {
+        font-size:1.5rem;
+        padding:0.7rem 0;
+    }
+
+    #angebote h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    #angebote a img {
+        margin:2rem 0 2rem 0;
+    }
+    #training .btn-block {
+        background-color:red;
+        margin-top:6rem;
+    }
+    #training h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    #impressionen h4 {
+        text-align:center;
+        font-weight:bold;
+        padding-bottom:2rem;
+    }
+    .training-info {
+        font-size:1rem;
+        padding:0.7rem 0;
+    }
+    .jumbotron {
+        height:100px;
     }
 }

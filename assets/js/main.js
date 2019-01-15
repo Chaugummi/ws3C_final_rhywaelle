@@ -1,9 +1,10 @@
 function main() {
     //importHeader();
-    importNavbar();
-    importFooter();
+    //importNavbar();
+    //importFooter();
     sideNavCollapse();
     M.AutoInit();
+    initMaterialbox();
 
 }
 
@@ -22,6 +23,9 @@ function importNavbar() {
 function sideNavCollapse() {
     $('.sidenav').sidenav();
     console.log("loaded sidenav");
+}
+function initMaterialbox() {
+    $('.materialboxed').materialbox();
 }
 
 $(document).ready(main);
