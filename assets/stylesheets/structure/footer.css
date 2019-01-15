@@ -4,7 +4,7 @@
     background-color: #E6EDF3;
 
 }
-#footer-wfv-label {
+.wfv-label {
     color:#F98700;
 }
 #footer-top {
@@ -29,7 +29,9 @@
     height:40px;
     display:inline-block;
 }
-
+#footer-icons-holder {
+    display:inline;
+}
 #footer-bottom p {
     text-align:center;
     padding:0 0 1rem 0;
@@ -37,4 +39,10 @@
 }
 #footer-bottom p a {
     color:black;
+}
+.footer-copyright {
+    padding:1rem 0;
+}
+.footer-copyright a {
+    color:rgba(0,0,0,0.5) !important;
 }
