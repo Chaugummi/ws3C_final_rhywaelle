@@ -45,7 +45,8 @@
     padding:1rem 0;
 }
 .footer-copyright a {
-    color:rgba(0,0,0,0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
 
 .page-footer {
     padding-top: 20px;
