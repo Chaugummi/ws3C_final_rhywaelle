@@ -32,15 +32,19 @@
     <header>
         <!-- NAVBAR -->
         <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">WFV Rhywälle</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="angebote.html">ANGEBOTE</a></li>
-                    <li><a href="vorstand.html">KONTAKT</a></li>
-                    <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
-                </ul>
+            <div class="container">
+
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img src="../assets//img/rhw-logo.svg" /></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="angebote.html">ANGEBOTE</a></li>
+                        <li><a href="vorstand.html" class="selected">KONTAKT</a></li>
+                        <li><a href="https://app.clubdesk.com/clubdesk/start?action=login">MITGLIEDER</a></li>
+                    </ul>
+                </div>
+
             </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
@@ -54,7 +58,7 @@
     <!-- CONTENT -->
     <main>
         <div class="jumbotron">
-            <img class="responsive-img" src="../assets/img/vorstand-group.jpg">
+            <img class="responsive-img responsive-img2" src="../assets/img/vorstand-group.jpg">
         </div>
         <div class="container">
             <h4>Der Vorstand</h4>
@@ -165,23 +169,35 @@
         </div>
     </main>
     <!-- FOOTER -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">WFV Rhywälle</h5>
-                    <p class="grey-text text-lighten-4">info@rhywälle.ch</p>
-                    <p class="grey-text text-lighten-4">Tel.: 076 681 62 45</p>
-                </div>
+    <footer id="page-footer">
 
+        <div class="container">
+
+            <div id="footer-top">
+
+                <div class="row">
+                    <div id="footer-left" class="col s6">
+                        <h5><span class="wfv-label">WFV</span> RHYWÄLLE &copy; 2019</h5>
+                        <p class="text-lighten-4">info@rhywälle.ch</p>
+                        <p class="text-lighten-4">Tel.: <span id="footer-tel">076 681 62 45</span></p>
+                    </div>
+
+                    <div id="footer-right" class="col s6">
+                        <div id="footer-icons-holder">
+                            <a href="#"><img src="../assets/img/icon_phone.png" alt="icon_phone" class="responsive-img" /></a>
+                            <a href="#"><img src="../assets/img/icon_mail.png" alt="icon_email" class="responsive-img" /></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2019 WFV Rhywälle
-                <a class="grey-text text-lighten-4 right" href="#!">AGB</a>
+            <div class="footer-copyright">
+                © 2019 WVF Rhywälle
+                <a class="right" href="#!">AGB</a>
             </div>
+
         </div>
+
+
 
     </footer>
 </body>

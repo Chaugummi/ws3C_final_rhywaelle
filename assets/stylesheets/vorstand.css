@@ -53,10 +53,6 @@
     background-size: contain;
 }
 
-nav .brand-logo{
-    font-size: 2rem;
-}
-
 
 @media only screen and (min-width: 600px) {
     nav .brand-logo{
@@ -65,7 +61,7 @@ nav .brand-logo{
     }
 }
 @media only screen and (min-width: 750px) {
-    .responsive-img{
+    .responsive-img2{
         margin: -15rem 0;
     }
 }

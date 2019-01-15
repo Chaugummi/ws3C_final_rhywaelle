@@ -8,11 +8,15 @@
 }
 
 /* === NAVBAR === */
+.sidenav-trigger {
+    margin:0 !important;
+}
 .sidenav-trigger i {
-    font-size:60px!important;
-    padding:10px 5px 5px 10px;
+    font-size:40px!important;
+    padding: 0.5rem 0 0.5rem 0;
     color:black;
 }
+
 
 nav {
     color: #fff;
@@ -34,14 +38,11 @@ nav .selected {
 }
 
 .brand-logo img {
-    padding:0.1rem;
-    margin-top:10px;
-
-nav {
-    color: #fff;
-    background-color: #ff000a;
-
+    padding: 0.1rem;
+    margin-top: 10px;
 }
+
+
 
 @media only screen and (max-width: 992px) {
     nav .brand-logo {
