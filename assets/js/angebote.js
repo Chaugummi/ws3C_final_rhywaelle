@@ -55,6 +55,5 @@ function initFlipbook() {
     });
 }
 
-$(document).ready(main);   
-            
-});
+$(document).ready(main);
+
