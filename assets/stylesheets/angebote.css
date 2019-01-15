@@ -81,3 +81,19 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .datepicker-table td.is-today {
     color: #F98700;
 }
+
+.slider{
+    height:25rem !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #f98700;
+}
+
+.slides{
+    height: 22.5rem !important;
+}
+
+.dark-text{
+    color: #000000;
+}

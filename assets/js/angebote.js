@@ -13,5 +13,9 @@ $(document).ready(function() {
         $('#klause__anmeldung').submit();
 
         alert("Hello! I am an alert box!!");
+        
     });
+
+        $('.slider').slider();    
+            
 });
