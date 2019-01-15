@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="../assets/stylesheets/angebote.css">
 
     <script src="../assets/js/frameworks/materialize.js"></script>
+    <script src="../assets/js/frameworks/turn.js/lib/turn.js"></script>
+
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -54,8 +56,41 @@
         <div class="jumbotron">
             <img class="responsive-img" src="../assets/img/banner.PNG">
         </div>
+
         <div class="container">
+
+
+
+
             <h4>Kommende Veranstaltungen</h4>
+
+            <div id="flyer-container">
+                <div class="row">
+                    <div class="col m6">
+                        <div id="flyers_1">
+                            <a class="modal-trigger" href="#modal1"><img class="responsive-img" src="../assets/img/flyers/flyer1_01.png" /></a>
+                        </div>
+                    </div>
+                    <div class="col m6">
+                        <div id="flyers_2">
+                            <a class="modal-trigger" href="#modal1"><img class="responsive-img" src="../assets/img/flyers/flyer2_01.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <div id="flipbook">
+
+                    </div>
+                </div>
+            </div>
             <h4>Klause</h4>
 
             <div class="slider">
