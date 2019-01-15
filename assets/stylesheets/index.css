@@ -3,19 +3,16 @@
     padding: 0;
     font-family: sans-serif;
 }
-.content__container{
-
-}
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-}
+  }
 
-main {
+  main {
     flex: 1 0 auto;
-}
+  }
 
 /* === NAVBAR === */
 
@@ -56,6 +53,8 @@ main {
 .jumbotron {
    /* background:url("../img/banner.png") top center no-repeat; */
     background-size:cover;
+    height: 16rem;
+    overflow: hidden;
 }
 .jumbotron img {
     min-width:100%;

@@ -1,0 +1,99 @@
+/* Validation Sass Placeholders */
+input.valid:not([type]), input.valid:not([type]):focus,
+input.valid[type=text]:not(.browser-default),
+input.valid[type=text]:not(.browser-default):focus,
+input.valid[type=password]:not(.browser-default),
+input.valid[type=password]:not(.browser-default):focus,
+input.valid[type=email]:not(.browser-default),
+input.valid[type=email]:not(.browser-default):focus,
+input.valid[type=url]:not(.browser-default),
+input.valid[type=url]:not(.browser-default):focus,
+input.valid[type=time]:not(.browser-default),
+input.valid[type=time]:not(.browser-default):focus,
+input.valid[type=date]:not(.browser-default),
+input.valid[type=date]:not(.browser-default):focus,
+input.valid[type=datetime]:not(.browser-default),
+input.valid[type=datetime]:not(.browser-default):focus,
+input.valid[type=datetime-local]:not(.browser-default),
+input.valid[type=datetime-local]:not(.browser-default):focus,
+input.valid[type=tel]:not(.browser-default),
+input.valid[type=tel]:not(.browser-default):focus,
+input.valid[type=number]:not(.browser-default),
+input.valid[type=number]:not(.browser-default):focus,
+input.valid[type=search]:not(.browser-default),
+input.valid[type=search]:not(.browser-default):focus,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    border-bottom: 1px solid #0037ff;
+  -webkit-box-shadow: 0 1px 0 0 #0037ff;
+  box-shadow: 0 1px 0 0 #0037ff;
+}
+p{
+    margin: 0 0 2rem 0;
+}
+h4{
+    margin: 5rem 0 2rem 0;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #0037ff;
+  -webkit-box-shadow: 0 1px 0 0 #0037ff;
+  box-shadow: 0 1px 0 0 #0037ff;
+}
+.txtarea_bemerkung{
+    padding: .5rem;
+    line-height: 1rem;
+    /* font-size: 1rem; */
+    font-size: 16px;
+    margin: 0.5rem 0 8px 0;
+    resize: none;
+    border: .1rem solid #c7c7c7;
+    height: 10rem;
+}
+.container{
+    margin-bottom: 5rem;
+}    
+
+.lbl_bemerkung{
+    left: 1.2rem !important;
+}
+
+.btn{
+    width: 100%;
+    background-color: #F98700;
+}
+.btn:hover, .btn::before{
+    background-color: #f8ba70;
+}
+
+.datepicker-date-display {
+   
+    background-color: #F98700;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #f8ba70;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color: #F98700;
+}
+
+.datepicker-table td.is-today {
+    color: #F98700;
+}
+
+.slider{
+    height:25rem !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #f98700;
+}
+
+.slides{
+    height: 22.5rem !important;
+}
+
+.dark-text{
+    color: #000000;
+}
