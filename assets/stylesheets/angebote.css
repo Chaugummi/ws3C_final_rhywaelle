@@ -68,3 +68,17 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
 .datepicker-table td.is-today {
     color: #F98700;
 }
+.cover {
+    background-color:#E8E8E8;
+}
+.flipbook {
+    margin:0 auto;
+    display:block;
+}
+.modal {
+    width: 75% !important;
+    height: 50rem !important;
+}
+#flyer-container {
+    padding:5rem;
+}
