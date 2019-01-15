@@ -1,3 +1,4 @@
+
 #page-footer {
     border-top:1px solid black;
     color: black;
@@ -45,4 +46,10 @@
 }
 .footer-copyright a {
     color:rgba(0,0,0,0.5) !important;
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #ff000a;
+
 }

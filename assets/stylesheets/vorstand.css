@@ -1,0 +1,71 @@
+#contact__information{
+    width: 80%;
+    height: 20rem;
+    text-align: center;
+    margin: 5rem auto;
+    background: url(../img/icons/rhw-logo-grey.svg) no-repeat left top;
+    background-size: contain;
+    background-position: center;
+}
+#contact__information_text{
+    height: 100%;
+    vertical-align: middle;
+    float: center;
+    line-height: 2rem;
+    padding-top: 5rem;
+}
+
+.collapsible-header{
+    line-height: 2.5;
+}
+
+.icon {
+    height: 2rem;
+    width: 2.5rem;
+    display: block;
+}
+.pre{
+    background: url('../img/icons/präsident.svg') no-repeat left top;
+    background-size: contain;
+}
+.vz-pre{
+    background: url('../img/icons/vize-präsident.svg') no-repeat left top;
+    background-size: contain;
+}
+.kass{
+    background: url('../img/icons/kassier.svg') no-repeat left top;
+    background-size: contain;
+}
+.beis{
+    background: url('../img/icons/beisitzender.svg') no-repeat left top;
+    background-size: contain;
+}
+.fahrc{
+    background: url('../img/icons/fahrchef.svg') no-repeat left top;
+    background-size: contain;
+}
+.j-fahrc{
+    background: url('../img/icons/jungfahrleiter.svg') no-repeat left top;
+    background-size: contain;
+}
+.matverw{
+    background: url('../img/icons/matverwalter.svg') no-repeat left top;
+    background-size: contain;
+}
+
+nav .brand-logo{
+    font-size: 2rem;
+}
+
+
+@media only screen and (min-width: 600px) {
+    nav .brand-logo{
+        padding: 0 0 0 1rem;
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 750px) {
+    .responsive-img{
+        margin: -15rem 0;
+    }
+}
