@@ -119,20 +119,20 @@
 
                             <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                <input type="text" class="datepicker" placeholder="Reservations Datum">
+                                <input id="klause__date" type="text" class="datepicker" placeholder="Reservations Datum">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input-field col l12 m12 s12">
-                                    <textarea id="klause__bemerkung" type="text" class="validate"></textarea>
+                                    <textarea id="klause__bemerkung" type="text" class="validate txtarea_bemerkung"></textarea>
                                     <label for="klause__bemerkung" class="lbl_bemerkung">Bemerkungen</label>
                                 </div>
 
                             </div>
                             <input type="button" id="klause__btn" class="btn" value="Anmelden">
                         </form>
-                        </a>
+                    
                     </div>
                 </li>
             </ul>
@@ -147,8 +147,70 @@
                         <span>Anmeldeformular</span>
                     </div>
                     <div class="collapsible-body">
-                        <p>Anmeldeformular enter here</p>
-                        </a>
+                        
+                        <form class="col s12" id="langschiff__anmeldung">
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__vorname" type="text" class="validate">
+                                    <label for="langschiff__vorname">Vorname</label>
+                                </div>
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__nachname" type="text" class="validate">
+                                    <label for="langschiff__nachname">Nachname</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l9 m8 s8">
+                                    <input id="langschiff__strasse" type="text" class="validate">
+                                    <label for="langschiff__strasse">Strasse</label>
+                                </div>
+                                <div class="input-field col l3 m4 s4">
+                                    <input id="langschiff__strasse_nr" type="text" class="validate">
+                                    <label for="langschiff__strasse_nr">Hausnummer</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="langschiff__plz" type="text" class="validate">
+                                    <label for="langschiff__plz">PLZ</label>
+                                </div>
+                                <div class="input-field col l6 m6 s6">
+                                    <input id="langschiff__ort" type="text" class="validate">
+                                    <label for="langschiff__ort">Ort</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__email" type="text" class="validate">
+                                    <label for="langschiff__email">Email</label>
+                                </div>
+
+
+                                <div class="input-field col l6 m6 s12">
+                                    <input id="langschiff__tel" type="text" class="validate">
+                                    <label for="langschiff__tel">Telefon</label>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                    <div class="input-field col l12 m12 s12">
+                                <input id="langschiff__date" type="text" class="datepicker" placeholder="Reservations Datum">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col l12 m12 s12">
+                                    <textarea id="langschiff__bemerkung" type="text" class="validate txtarea_bemerkung"></textarea>
+                                    <label for="langschiff__bemerkung" class="lbl_bemerkung">Bemerkungen</label>
+                                </div>
+
+                            </div>
+                            <input type="button" id="langschiff__btn" class="btn" value="Anmelden">
+                        </form>
+
                     </div>
                 </li>
             </ul>

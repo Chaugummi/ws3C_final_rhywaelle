@@ -28,8 +28,18 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
   -webkit-box-shadow: 0 1px 0 0 #0037ff;
   box-shadow: 0 1px 0 0 #0037ff;
 }
-
-#klause__bemerkung{
+p{
+    margin: 0 0 2rem 0;
+}
+h4{
+    margin: 5rem 0 2rem 0;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #0037ff;
+  -webkit-box-shadow: 0 1px 0 0 #0037ff;
+  box-shadow: 0 1px 0 0 #0037ff;
+}
+.txtarea_bemerkung{
     padding: .5rem;
     line-height: 1rem;
     /* font-size: 1rem; */
@@ -39,6 +49,9 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
     border: .1rem solid #c7c7c7;
     height: 10rem;
 }
+.container{
+    margin-bottom: 5rem;
+}    
 
 .lbl_bemerkung{
     left: 1.2rem !important;
