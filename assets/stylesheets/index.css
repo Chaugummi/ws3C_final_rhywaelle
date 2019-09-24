@@ -49,6 +49,15 @@ body {
     background-color: #4CAF50;
 }
 
+/*WORKING NAVBAR-CSS*/
+
+nav li:hover:not(.active){
+    background-color: #e8e8e8a6;
+}
+nav li:hover:not(.active) a{
+    color: #FFFFFF !important;
+}
+
 /* === BANNER === */
 .jumbotron {
    /* background:url("../img/banner.png") top center no-repeat; */

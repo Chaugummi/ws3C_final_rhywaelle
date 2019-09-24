@@ -49,9 +49,6 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     border: .1rem solid #c7c7c7;
     height: 10rem;
 }
-.container{
-    margin-bottom: 5rem;
-}    
 
 .lbl_bemerkung{
     left: 1.2rem !important;
