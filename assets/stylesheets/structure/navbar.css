@@ -42,14 +42,16 @@ nav .selected {
     margin-top: 10px;
 }
 
-
-
 @media only screen and (max-width: 992px) {
     nav .brand-logo {
+        float: right;
+        position: relative;
+        /* width: 100%; */
+        margin-bottom: -5rem;
 
-        left: 48%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
 
+        left: 0;
+        -webkit-transform: inherit;
+        transform: none;
     }
 }

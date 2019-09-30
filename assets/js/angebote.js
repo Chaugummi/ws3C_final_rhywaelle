@@ -30,17 +30,15 @@ function initModal() {
 function selectFlipbook() {
     $("#flyers_1").on('click', function(e) {
         $("#flipbook").empty();
-        $("#flipbook").append("        <div class=\"hard\"><img class=\"responsive-img\" src=\"../assets/img/flyers/flyer1_02.png\" /></div>\n" +
-            "            <div><img class=\"responsive-img\" src=\"../assets/img/flyers/flyer1_01.png\" /></div>\n" +
-            "            <div><img class=\"responsive-img\" src=\"../assets/img/flyers/flyer1_03.png\" /></div>\n" +
+        $("#flipbook").append("        <div class=\"hard\"><img class=\"responsive-img\" src=\"../assets/img/flyer/flyer01.png\" /></div>\n" +
+            "            <div><img class=\"responsive-img\" src=\"../assets/img/flyer/flyer02.png\" /></div>\n" +
             "            <div class=\"hard cover\"></div>");
         initFlipbook();
     });
     $("#flyers_2").on('click', function(e) {
         $("#flipbook").empty();
-        $("#flipbook").append("                    <div><img src=\"../assets/img/flyers/flyer2_01.png\" class=\"responsive-img\" /></div>\n" +
-            "                    <div><img src=\"../assets/img/flyers/flyer2_02.png\" class=\"responsive-img\" /></div>\n" +
-            "                    <div class=\"hard cover\"></div>");
+        $("#flipbook").append("          <div class=\"hard\"><img src=\"../assets/img/flyer/flyer03.png\" class=\"responsive-img\" /></div>\n" +
+            "                            <div class=\"hard cover\"></div>");
         initFlipbook();
     });
 }

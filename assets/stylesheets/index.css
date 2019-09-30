@@ -16,6 +16,10 @@ body {
 
 /* === NAVBAR === */
 
+p{
+    font-size: 1.5rem;
+}
+
 #navbar__ul {
     list-style-type: none;
     margin:         0;
@@ -104,11 +108,10 @@ nav .brand-logo{
 
 }
 #training .training-info img {
-    height:1.6rem;
+    height:3rem;
 }
 #training .training-info .info-para-block {
     display:inline-block;
-    margin-top:2.5rem;
     margin-left:2rem;
 }
 #training #training-trainingsarten {
@@ -118,9 +121,8 @@ nav .brand-logo{
     font-weight:bold;
     padding:1rem 0;
 }
-#train-lower .info-para-block p:last-child {
-    margin-left:2rem;
-    margin-top:0.5rem;
+.training_banner{
+    margin-bottom: 4rem;
 }
 .btn-block {
     width:100%;
@@ -138,14 +140,6 @@ nav .brand-logo{
     background-color: #F6F6F6;
     padding-bottom: 2rem;
 }
-
-@media only screen and (min-width: 600px) {
-    nav .brand-logo{
-        padding: 0 0 0 1rem;
-        font-size: 2rem;
-    }
-}
-
 
 @media all and (max-width: 600px){
     #navbar__ul {
@@ -194,11 +188,37 @@ nav .brand-logo{
         font-weight:bold;
         padding-bottom:2rem;
     }
+
+    .jumbotron {
+        height:100px;
+    }
+
+}
+
+
+@media all and (max-width:920px) {
     .training-info {
         font-size:1rem;
         padding:0.7rem 0;
     }
-    .jumbotron {
-        height:100px;
+
+    .training-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .training-info-col {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .info-para-block{
+        display: block !important;
+        margin-left: 0rem !important;
+    }
+
+    .training-trainingsarten_header{
+        text-align: center !important;
+        background: #f6f6f6;
     }
 }
