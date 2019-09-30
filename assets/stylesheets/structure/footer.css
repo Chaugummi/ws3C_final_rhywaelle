@@ -23,9 +23,9 @@
 #footer-right {
     background:url("../../img/rhywaelle_logo_footer_md.png") no-repeat right;
     height:175px;
+    text-align: right;
 }
 #footer-right #footer-icons-holder {
-    margin-left:8rem;
     line-height:6rem;
 }
 #footer-right #footer-icons-holder a img {

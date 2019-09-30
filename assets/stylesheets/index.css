@@ -19,7 +19,9 @@ body {
 p{
     font-size: 1.5rem;
 }
-
+h2{
+    margin: 5rem 0 2rem 0;
+}
 #navbar__ul {
     list-style-type: none;
     margin:         0;
@@ -64,7 +66,7 @@ nav li:hover:not(.active) a{
 
 /* === BANNER === */
 .jumbotron {
-   /* background:url("../img/banner.png") top center no-repeat; */
+    background:url("../img/banner.png") top center no-repeat;
     background-size:cover;
     height: 16rem;
     overflow: hidden;
